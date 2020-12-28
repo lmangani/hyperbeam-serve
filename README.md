@@ -38,3 +38,8 @@ GET / HTTP/1.1
 ```
 curl www.google.com -x localhost:8080
 ```
+
+
+#### Credits
+* [hyperbeam](https://github.com/mafintosh/hyperbeam)
+* [http-over-hyperswarm](https://github.com/ameba23/http-over-hyperswarm)
