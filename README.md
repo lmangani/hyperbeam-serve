@@ -3,36 +3,38 @@
 ## hyperbeam-serve
 HyperBeam 1-1 Encrypted Tunneling Proxy w/ Auto Discovery
 
-### Setup
+#### Setup
 ```
 npm install -g @qxip/hyperbeam-serve
 ```
 
-### Usage
-#### Client
+#### Usage
+##### Client
+Spawn a beam client tunnel targeting a local or remote `service:port`
 ```
-hyperbeam-serve -c google.com:80 -t somesupersecretproxyhash
+hyperbeam-serve -c some.webserver:80 -t somesupersecretproxyhash
 ```
 
-#### Server
+##### Server
+Spawn a local beam server proxying traffic to the client using a custom `port`
 ```
 hyperbeam-serve -s 0.0.0.0:8080 -t somesupersecretproxyhash
 ```
 
 ---------
 
-### Test
-Once your client/server pair is connected you can interact with it through `hyperbeam` or via the proxy port with `curl` or other tools.
+#### Test
+Once the  beam is connected you can interact with it through `hyperbeam` or via the proxy with `curl`.
 
-#### Hyperbeam Client
+##### Hyperbeam Client
 ```
 hyperbeam supersecretproxyhash
 ```
 ```
-GET http://google.com/ HTTP/1.1
+GET / HTTP/1.1
 
 ```
-#### CURL Client
+##### CURL Client
 ```
 curl www.google.com -x localhost:8080
 ```
