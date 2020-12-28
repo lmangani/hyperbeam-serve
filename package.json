@@ -1,0 +1,24 @@
+{
+  "name": "@qxip/hyperbeam-serve",
+  "version": "1.1.4",
+  "description": "A 1-1 end-to-end encrypted internet proxy pipe powered by Hyperswarm",
+  "main": "bin.js",
+  "bin": {
+    "hyperbeam-serve": "./bin.js"
+  },
+  "dependencies": {
+    "hyperbeam": "^1.1.3",
+    "minimist": "^1.2.5"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lmangani/hyperbeam-serve.git"
+  },
+  "author": "Lorenzo Mangani <lorenzo.mangani@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lmangani/hyperbeam-serve/issues"
+  },
+  "homepage": "https://github.com/lmangani/hyperbeam-serve"
+}
