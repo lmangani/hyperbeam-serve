@@ -1,6 +1,6 @@
 {
   "name": "@qxip/hyperbeam-serve",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "A 1-1 end-to-end encrypted internet proxy pipe powered by Hyperswarm",
   "main": "bin.js",
   "bin": {
