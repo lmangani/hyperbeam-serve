@@ -21,6 +21,12 @@ Spawn a local beam server proxying traffic to the client using a custom `port`
 hyperbeam-serve -s 0.0.0.0:8080 -t somesupersecretproxyhash
 ```
 
+##### Server + Client
+Spawn a local beam server proxying traffic to a local beam client using a custom `port`
+```
+hyperbeam-serve -s 0.0.0.0:8080 -c some.webserver:80 -t somesupersecretproxyhash
+```
+
 ---------
 
 #### Test
